@@ -1,8 +1,8 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: '',
+  title: 'Christie Pamphile',
   author: 'Christie Pamphile',
-  headerTitle: 'Christie Pamphile',
+  headerTitle: '',
   description:
     'UI Engineer with a passion for building beautiful, accessible, and performant web applications. Now securing the web one pixel at a time.',
   language: 'en-us',
