@@ -2,7 +2,7 @@
 const siteMetadata = {
   title: '',
   author: 'Christie Pamphile',
-  headerTitle: '',
+  headerTitle: 'Christie Pamphile',
   description:
     'UI Engineer with a passion for building beautiful, accessible, and performant web applications. Now securing the web one pixel at a time.',
   language: 'en-us',
