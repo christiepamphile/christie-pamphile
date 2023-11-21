@@ -1,3 +1,31 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet" viewBox="344.5639097744361 330.27819548872174 111.73684210526318 91.21804511278197" width="53.87" height="43.61"><defs><path d="M453.3 331.28L453.3 359.85L388.64 418.5L388.64 388.42L453.3 331.28Z" id="aFZf6T5ED"></path><linearGradient id="gradientb2ThqnP5Op" gradientUnits="userSpaceOnUse" x1="420.97" y1="331.28" x2="420.97" y2="418.5"><stop style="stop-color: #06b6d4;stop-opacity: 1" offset="0%"></stop><stop style="stop-color: #67e8f9;stop-opacity: 1" offset="100%"></stop></linearGradient><path d="M410.23 331.28L410.23 359.85L345.56 418.5L345.56 388.42L410.23 331.28Z" id="a9fehgwfM"></path><linearGradient id="gradientk1wNV9Ostb" gradientUnits="userSpaceOnUse" x1="377.89" y1="331.28" x2="377.89" y2="418.5"><stop style="stop-color: #06b6d4;stop-opacity: 1" offset="0%"></stop><stop style="stop-color: #67e8f9;stop-opacity: 1" offset="100%"></stop></linearGradient></defs><g><g><use xlink:href="#aFZf6T5ED" opacity="1" fill="url(#gradientb2ThqnP5Op)"></use></g><g><use xlink:href="#a9fehgwfM" opacity="1" fill="url(#gradientk1wNV9Ostb)"></use></g></g></svg>
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="120pt" height="100pt" viewBox="0 0 300.000000 120.000000"
+ preserveAspectRatio="xMidYMid meet">
+<metadata>
+Created by potrace 1.10, written by Peter Selinger 2001-2011
+</metadata>
+<g transform="translate(0.000000,120.000000) scale(0.050000,-0.050000)"
+fill="#3481d4" stroke="none">
+<path d="M3733 1879 c-106 -84 -38 -259 101 -259 26 0 70 22 97 49 134 134
+-49 327 -198 210z"/>
+<path d="M1985 1315 l5 -545 210 0 c267 0 267 1 81 334 -171 306 -171 272 0
+374 215 128 207 139 219 -318 l10 -390 157 -6 c216 -8 213 -11 213 293 -1 449
+-74 575 -344 601 -116 11 -126 16 -132 62 -16 147 -5 140 -225 140 l-200 0 6
+-545z"/>
+<path d="M1327 1610 c-272 -136 -328 -494 -112 -715 110 -113 196 -138 455
+-131 l220 6 6 118 c8 149 3 151 -241 152 l-195 0 0 250 c0 297 -6 292 221 160
+199 -117 223 -110 215 67 l-6 133 -230 6 c-213 5 -238 1 -333 -46z"/>
+<path d="M3009 1634 c-5 -14 -7 -214 -4 -445 l5 -419 170 0 170 0 5 280 c6
+353 7 358 114 420 111 66 138 98 121 149 -16 51 -562 65 -581 15z"/>
+<path d="M4289 1632 c-139 -61 -194 -173 -185 -373 l6 -129 219 -6 c260 -6
+275 -15 267 -152 -8 -135 -31 -136 -246 -12 -219 126 -237 125 -250 -26 -16
+-177 -21 -174 306 -174 421 1 540 88 529 390 l-5 140 -200 5 c-298 7 -290 3
+-290 145 0 154 22 156 253 19 224 -132 251 -125 243 58 l-6 133 -290 4 c-208
+4 -307 -3 -351 -22z"/>
+<path d="M3624 1516 c-17 -17 -24 -127 -24 -366 0 -401 -5 -390 190 -390 195
+0 190 -11 190 390 0 239 -7 349 -24 366 -32 32 -300 32 -332 0z"/>
+</g>
+</svg>
