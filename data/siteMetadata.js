@@ -14,7 +14,6 @@ const siteMetadata = {
   email: 'cpamp2011@gmail.com',
   github: 'https://github.com/christiepamphile',
   linkedin: 'https://www.linkedin.com/in/christiepamphile',
-  dribbble: 'https://dribbble.com/christiepamphile',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
