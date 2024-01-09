@@ -44,16 +44,16 @@ const siteMetadata = {
     // content security policy in the `next.config.js` file.
     // Select a provider and use the environment variables associated to it
     // https://vercel.com/docs/environment-variables
-    provider: 'giscus', // supported providers: giscus, utterances, disqus
+    provider: '', // supported providers: giscus, utterances, disqus
     giscusConfig: {
-      repo: 'christiepamphile/christie-pamphile',
-      repositoryId: 'R_kgDOKvb7yw',
-      category: 'General',
-      categoryId: 'DIC_kwDOKvb7y84CbJOu',
-      mapping: 'pathname', // supported options: pathname, url, title
-      reactions: '1', // Emoji reactions: 1 = enable / 0 = disable
+      repo: '',
+      repositoryId: '',
+      category: '',
+      categoryId: '',
+      mapping: '', // supported options: pathname, url, title
+      reactions: '', // Emoji reactions: 1 = enable / 0 = disable
       // Send discussion metadata periodically to the parent window: 1 = enable / 0 = disable
-      metadata: '0',
+      metadata: '',
       // theme example: light, dark, dark_dimmed, dark_high_contrast
       // transparent_dark, preferred_color_scheme, custom
       theme: 'light',
