@@ -1,0 +1,92 @@
+---
+title: 'Web Security'
+date: '2023-11-16'
+tags: ['web security', 'vulnerabilities', 'lab']
+draft: false
+summary: In the Web Security Lab, I conducted penetration testing using tools like BurpSuite, OWASP ZAP, and Nikto on vulnerable web applications. I identified critical vulnerabilities such as SQL injection and XSS and implemented robust security controls on Ubuntu VM to mitigate these risks.
+---
+
+# Web Security Lab:Penetration Testing and Vulnerability Mitigation
+
+
+## Objective
+
+The objective of this lab is to conduct penetration testing on vulnerable web applications
+using tools such as BurpSuite, OWASP ZAP, and Nikto. Additionally, this lab aims to identify critical vulnerabilities such as
+SQL injection and XSS, and demonstrate proficiency in implementing robust security
+controls on Ubuntu VM to mitigate these vulnerabilities
+
+## Prerequisites
+
+* Basic knowledge of web applications and web security concepts
+* Familiarity with Linux command-line interface
+* Installation of BurpSuite, OWASP ZAP, and Nikto on Ubuntu VM
+
+## Materials
+
+* Ubuntu VM
+* BurpSuite
+* OWASP ZAP
+* Nikto
+* Vulnerable web applications (e.g., DVWA, Mutillidae, WebGoat)
+
+## Lab Setup
+- Set up Ubuntu VM in preferred virtualization platform in this case it will be in Virtual Box
+- Install necessary software packages:
+                 - BurpSuite: Download from the official website and follow installation instructions
+                 - OWASP ZAP: Install using package manager (e.g., apt-get install zaproxy)
+                 - Nikto: Install using package manager (e.g., apt-get install nikto)
+- Download and deploy vulnerable web applications on the Ubuntu VM
+
+## Lab Procedure
+
+### Part 1: Penetration Testing
+1. Launch BurpSuite:
+            - Open a terminal window
+            - Navigate to the BurpSuite installation directory
+            - Execute the command to launch BurpSuite.
+2. Configure BurpSuite Proxy:
+            - Go to the "Proxy" tab
+            - Set up the proxy listener on a desired port (e.g., 8080)
+            - Configure web browser to use BurpSuite as a proxy
+3. Explore the Vulnerable Web Applications:
+            - Open a web browser and access the vulnerable web application
+            - Navigate through different pages and functionalities to understand the application's behavior
+4. Conduct Manual Testing:
+            - Intercept HTTP requests using BurpSuite Proxy
+            - Manipulate parameters and payloads to identify potential vulnerabilities such as SQL injection and XSS
+            - Document findings and observations
+5. Utilize Automated Scanning:
+            - Utilize BurpSuite's automated scanning features to identify common vulnerabilities
+            - Analyze scan results and prioritize identified issues based on severity
+6. Repeat Steps 1-5 with OWASP ZAP:
+            - Launch OWASP ZAP
+            - Configure the proxy settings similar to BurpSuite
+            - Explore the vulnerable web applications
+            - Conduct manual testing and automated scanning
+            - Compare findings with BurpSuite results
+7. Repeat Steps 1-5 with Nikto
+            - Launch Nikto from the terminal
+            - Run Nikto against the vulnerable web applications
+            - Analyze Nikto's scan results and identify potential vulnerabilities
+### Part 2: Vulnerability Mitigation
+1. Identify Critical Vulnerabilities:
+            - Review the findings from penetration testing tools
+            - Identify critical vulnerabilities such as SQL injection and XSS
+2. Implement Security Controls:
+- Access the Ubuntu VM hosting the vulnerable web application
+- Implement security controls to mitigate identified vulnerabilities
+            - For SQL injection: Validate input, use parameterized queries, and employ proper sanitization techniques
+            - For XSS: Implement output encoding, use secure HTTP headers, and sanitize user input
+3. Verify Mitigation Measures:
+            - Re-run penetration tests using BurpSuite, OWASP ZAP, and Nikto to verify the effectiveness of implemented security controls
+            - Ensure that critical vulnerabilities are no longer exploitable
+            - Document the steps taken to mitigate vulnerabilities and the results of verification
+
+## Conclusion
+
+In this lab, we conducted penetration testing on vulnerable web applications using tools such as BurpSuite, OWASP ZAP, and Nikto. 
+I identified critical vulnerabilities such as SQL injection and XSS and implemented robust security controls to mitigate these vulnerabilities on Ubuntu VM. 
+This lab demonstrates proficiency in web application security testing and mitigation techniques.
+
+
