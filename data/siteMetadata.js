@@ -4,7 +4,7 @@ const siteMetadata = {
   author: 'Christie Pamphile',
   headerTitle: '',
   description:
-    'Security Engineer with a passion for building beautiful, accessible, and performant web applications. Now securing the web one pixel at a time.',
+    'A UI Engineer transitioning into the cyber world that is passionate about building beautiful, accessible, and performant web applications. Now aiming to secure the web one pixel at a time.',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://christiepamphile.com',
